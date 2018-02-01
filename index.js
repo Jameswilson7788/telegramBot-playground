@@ -5,7 +5,7 @@ const app = express();
 
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = '420513656:AAGHu-f_RefaPyw-xj2kRAILDp27L9rZ1KU';
+const token = require("./token");
 const axios = require('axios');
 
 // Create a bot that uses 'polling' to fetch new updates
